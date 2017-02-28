@@ -8,8 +8,9 @@
 	height: 430px;
 	border: 1px solid #ddd;
 	background: #fff;
-	margin: 20px auto;
+	margin: 20px;
 	position: relative;
+	display: inline-block;
 }
 .box{
 	position: relative;
@@ -89,4 +90,16 @@
 }
 .container, .box, .pop, .buddy, .pup img{
 	opacity: 0.0;
+}
+
+textarea{
+	font-size: 14px;
+	font-family: helvetica;
+	width: 880px;
+	margin: 15px;
+	height: 500px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
